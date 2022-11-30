@@ -11,7 +11,7 @@ A python interface to control an Arduino UNO board. The ultimate goal is to cont
 
 Unbuntu:
 \
-```sudo apt install -y python3-pip```
+```sudo apt install -y python3 python3-pip```
 \
 ```pip install pyFirmata```
 \
