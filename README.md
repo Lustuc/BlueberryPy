@@ -25,6 +25,10 @@ ArchLinux:
 \
 ```pip install tk```
 
+By default, you might not have the required permissions to access /dev/ttyAMC0 (the board's port).
+Run ```sudo gpasswd -a username tty``` to solve this issue permanently.
+
 ## Running:
 First make sure ```SimpleDigitalFirmata.ino``` is uploaded to your board trough Arduino's IDE.
-Then, while your board is connected to your computer, simply run ```python main.py```.
+Then, while your board is connected to your computer, simply run ```python main.py``` or the ```Blueberry``` executable.
+
