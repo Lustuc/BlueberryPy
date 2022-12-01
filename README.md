@@ -5,7 +5,9 @@ A python interface to control an Arduino UNO board. The ultimate goal is to cont
 - Tkinter
 - PyFirmata
 - Python 3
+\
 (Above dependencies don't need to be fullfied if you only plan on using the executable)
+\
 - Arduino IDE
 
 ## Installation:
