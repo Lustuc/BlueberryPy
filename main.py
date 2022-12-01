@@ -12,8 +12,8 @@ root.geometry('400x400')
 root.title('Arduino Interface')
 root.resizable(True,True)
 #Define images...
-onI = tk.PhotoImage(file='on.png')
-offI = tk.PhotoImage(file='off.png')
+onI = tk.PhotoImage(file='data/on.png')
+offI = tk.PhotoImage(file='data/off.png')
 #Define action when a button is pressed...
 def onClick(i):
     global BUTTONS, board
